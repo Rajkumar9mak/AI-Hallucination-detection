@@ -14,42 +14,22 @@ The UI should prioritize evidence traceability and before/after comparison over 
 - **Consistency:** Use the same labels and terminology throughout the application.
 - **Responsive layout:** Keep the interface usable on typical laptop screens.
 
-## 3. Suggested Information Architecture
+## 3. Information Architecture (Two-Page ChatGPT Paradigm)
 
-### Page 1: Overview
-- Project name and short explanation.
-- Pipeline status: documents loaded, chunks indexed, models ready.
-- Short explanation of the three verdicts.
-- Quick link or navigation to the query workspace and experiment results.
+### Page 1: Mission Control (Dashboard)
+- Project branding and 3D breathing particle sphere loader
+- Real-time pipeline and indexing indicators
+- Operational verdict definitions and workflow topology
+- Empirical benchmark analytics (Retrieval paradigms, FEVER, RAGTruth)
 
-### Page 2: Document Management
-- Upload/select documents.
-- Show file name, processing status, chunk count, and ingestion errors.
-- Show chunking configuration (size and overlap).
-- Provide a clear indication when the corpus/index is ready.
-
-### Page 3: Ask a Question
-- Query input.
-- Retrieval method selector: BM25, Dense, Hybrid.
-- Top-K control.
-- Optional advanced experiment controls for chunking and model selection.
-- Run button and visible processing state.
-
-### Page 4: Verification Results
-Display results in this order:
-1. User question.
-2. Initial generated answer.
-3. Claim-level verification summary.
-4. Individual claim cards.
-5. Correction action and corrected answer.
-6. Final verification summary.
-
-### Page 5: Experiments
-- Compare BM25, dense, and hybrid retrieval.
-- Show retrieval and grounding metrics.
-- Show claim-verification precision, recall, and F1 where labelled data exists.
-- Show latency and inference cost.
-- Display experimental configuration beside each result.
+### Page 2: AI Chat (Conversational Intelligence Workspace)
+- Unified conversational interface for queries and responses
+- Integrated document upload drawer with attachment chips
+- Real-time atomic claim decomposition and verification cards
+- Self-healing mitigation comparison (original vs corrected answer)
+- Evidence passage traceability accordions
+- Persistent SQLite conversation history with auto-titles, renaming, and deletion
+- Settings modal and Markdown/CSV export options
 
 ## 4. Claim Card Design
 Each claim card should contain:

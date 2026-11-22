@@ -1,0 +1,11 @@
+{
+  "include": [
+    "."
+  ],
+  "extraPaths": [
+    "C:\\Users\\Asus\\AppData\\Roaming\\Python\\Python313\\site-packages",
+    "C:\\Python313\\Lib\\site-packages"
+  ],
+  "reportMissingImports": false,
+  "reportMissingTypeStubs": false
+}
