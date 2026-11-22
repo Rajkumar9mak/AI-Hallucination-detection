@@ -136,4 +136,3 @@ def render_settings_dialog():
         st.caption(f"**Vector Store:** FAISS (Exact Inner Product)")
         st.caption(f"**Lexical Engine:** BM25Okapi with Query Expansion")
         st.caption(f"**Fusion Method:** Reciprocal Rank Fusion (k=60)")
-        st.caption("Acropolis Institute of Technology and Research")

@@ -166,8 +166,6 @@ with st.sidebar:
         </div>
         """, unsafe_allow_html=True)
 
-    st.caption("Acropolis Institute of Technology & Research")
-
 # ---------------------------------------------------------------------------
 # Modals / Panels
 # ---------------------------------------------------------------------------
